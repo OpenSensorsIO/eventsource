@@ -1,0 +1,16 @@
+{
+    "version": "0.1.0",
+    "summary": "Server Sent Event (SSE) library",
+    "repository": "https://github.com/OpenSensorsIO/eventsource.git",
+    "license": "MIT",
+    "source-directories": [
+        "src"
+    ],
+    "exposed-modules": [
+        "EventSource"
+    ],
+    "dependencies": {
+        "elm-lang/core": "4.0.1 <= v < 5.0.0"
+    },
+    "elm-version": "0.17.0 <= v < 0.18.0"
+}

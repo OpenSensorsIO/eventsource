@@ -7,7 +7,6 @@ Server Sent Events (SSE) ELM client library (using Javascript eventsource). Infl
 From your top-level directory - the one with `elm-package.json` in - call:
 
 ```
-
 $ elm package install opensensors/eventsource
 ```
 
@@ -25,9 +24,7 @@ make
 
 ## Contributors
 
-With thanks to:
-
-[Kris Jenkins](https://github.com/krisajenkins)
+With thanks to: [Kris Jenkins](https://github.com/krisajenkins)
 
 ## License
 
