@@ -8,12 +8,11 @@ Currently this lib is not available on [package.elm-lang.org](http://package.elm
 
 ## Documentation
 
-```
+```elm
 module DatasetEvents.Types exposing (..)
 
 type alias Channel =
     { events : List (Result String Event)
-    , typ : PayloadType
     , listening : Bool
     }
 
@@ -32,7 +31,7 @@ type ChannelMsg
 ```
 
 
-```
+```elm
 module DatasetEvents.Rest exposing (..)
 
 import EventSource
@@ -51,7 +50,7 @@ listen eventRoot datasetId =
         (decodeString decodeEvent >> Receive >> ChannelMsg datasetId)
 ```
 
-```
+```elm
 module DatasetEvents.State exposing (..)
 
 subscriptions : Model -> Sub Msg
