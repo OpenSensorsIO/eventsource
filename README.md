@@ -94,7 +94,7 @@ updateChannel msg channel =
 
 ## Contributors
 
-With thanks to: [Kris Jenkins](https://github.com/krisajenkins)
+With thanks to: [Kris Jenkins](https://github.com/krisajenkins), [Martin Trojer](https://github.com/martintrojer)
 
 ## License
 
