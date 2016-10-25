@@ -1,4 +1,4 @@
-module Main exposing (..)
+module Simple exposing (..)
 
 import Html.App as Html
 import Html exposing (..)
