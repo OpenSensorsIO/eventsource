@@ -2,7 +2,7 @@
     "version": "1.0.0",
     "summary": "Example for the OpenSensorsIO/eventsource package",
     "repository": "https://github.com/OpenSensorsIO/eventsource.git",
-    "license": "BSD3",
+    "license": "MIT",
     "source-directories": [
         "src",
         "../src"
