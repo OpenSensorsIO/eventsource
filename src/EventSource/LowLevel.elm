@@ -13,14 +13,14 @@ module EventSource.LowLevel
         , BadSend(..)
         )
 
-{-| Low-level bindings to [the JavaScript API for web sockets][ws]. This is
-useful primarily for making effect modules like [EventSource](EventSource). So
-if you happen to be the creator of Elixir’s Phoenix framework, and you want
+{-| Low-level bindings to [the JavaScript API for Server Sent Events][sse]. This
+is useful primarily for making effect modules like [EventSource](EventSource).
+So if you happen to be the creator of Elixir’s Phoenix framework, and you want
 it to be super easy to use channels, this module will help you make a really
 nice subscription-based API. If you are someone else, you probably do not want
 these things.
 
-[ws]: https://developer.mozilla.org/en-US/docs/Web/API/EventSource
+[sse]: https://developer.mozilla.org/en-US/docs/Web/API/EventSource
 
 # EventSources
 @docs EventSource
