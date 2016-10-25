@@ -5,7 +5,7 @@
    _elm_lang$core$Maybe$Just,
    A2, F2, F3
 */
-var _opensensorsio$website_datasubscriber$Native_EventSource = (function() {
+var _OpenSensorsIO$eventsource$Native_EventSource = (function() {
     var MIN_TIME_BETWEEN_MESSAGES_MS = 250;
 
     var open = function (options, url, settings) {
