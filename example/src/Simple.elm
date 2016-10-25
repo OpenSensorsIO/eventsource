@@ -2,13 +2,11 @@ module Simple exposing (..)
 
 import Html.App as Html
 import Html exposing (..)
-import Html.Attributes exposing (..)
-import Html.Events exposing (..)
 import Dict exposing (..)
 import Date exposing (..)
 import EventSource exposing (..)
-import Json.Decode
-import Json.Decode.Pipeline as JD
+import Json.Decode exposing (..)
+import Json.Decode.Pipeline as JD exposing (..)
 
 
 -- Model
