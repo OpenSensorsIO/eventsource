@@ -7,10 +7,12 @@
         "src"
     ],
     "exposed-modules": [
-        "EventSource"
+        "EventSource",
+        "EventSource.LowLevel"
     ],
     "dependencies": {
         "elm-lang/core": "4.0.1 <= v < 5.0.0"
     },
+    "native-modules": true,
     "elm-version": "0.17.0 <= v < 0.18.0"
 }
